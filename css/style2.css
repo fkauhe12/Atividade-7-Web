@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1 {
+    text-align: center;
+}
+#main{
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+input {
+    resize: none;
+    border-radius: 30px;
+    outline: none;
+    border:none;
+    padding: 10px;
+    width: 90%;
+}
+label {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#but {
+    display: flex;  
+}
+
+.inp {
+    padding: 20px;
+}

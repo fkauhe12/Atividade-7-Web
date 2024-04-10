@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aula</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style1.css" rel="stylesheet">        
+    </head>
+    <body>
+        <h1>Aula 01 - Js</h1>
+        <div id="caixa" 
+            onMouseEnter="mudarcorEntrar()"
+            onClick="mudarcorClick()"
+            onMouseOut="mudarcorSair()">
+            <p id="p">Isso é um paragráfo!!</p>
+        </div>
+        <script>
+            function mudarcorSair(){
+                let div = document.getElementById("caixa");
+                let p = document.getElementById("p");
+                div.style.background = "red"; 
+                p.innerText = "Aula 01 de JavaScript";
+                p.style.textAlign = "center";
+            } 
+            function mudarcorClick(){
+                let div = document.getElementById("caixa");
+                let p = document.getElementById("p");
+                div.style.background = "blue"; 
+                p.innerText = "Aula 01 de JavaScript";
+                p.style.textAlign = "center";
+            } 
+            function mudarcorEntrar(){
+                let div = document.getElementById("caixa");
+                let p = document.getElementById("p");
+                div.style.background = "yellow"; 
+                p.innerText = "Aula 01 de JavaScript";
+                p.style.textAlign = "center";
+            }                       
+        </script>
+    </body>
+</html>
